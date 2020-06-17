@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validation</title>
+    <script src="https://kit.fontawesome.com/da4185c9fe.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="container">
+        <div class="input_field">
+            <h3>Enter your password : </h3>
+            <div class="input" >
+            <input type="text" id="password">
+            <button onclick="validation()">Submit</button>
+            </div>
+        </div>
+        <div>
+            <ul>
+           <li id="length"><i class="fas fa-check-circle"></i>Length more than 8. </li>
+           <li id="case"><i class="fas fa-check-circle"></i>Contains at least one uppercase. </li>
+           <li id="number"><i class="fas fa-check-circle"></i>Contains at least one number. </li>
+           <li id="char"><i class="fas fa-check-circle"></i>Contains at least one character. </li>
+            </ul>
+        </div>
+    </section>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
